@@ -25,3 +25,11 @@ rows = run_query("SELECT current_account();")
 # Print results.
 for row in rows:
     st.write(f"Result : {row[0]}")
+
+    
+with st.form(key='my_form'):
+	text_input = st.text_input(label='Enter your question:')
+	submit_button = st.form_submit_button(label='Submit Question'
+                                          
+if submit:
+    st.write(f'hello {text_input}')

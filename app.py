@@ -28,8 +28,7 @@ for row in rows:
 
     
 with st.form(key='my_form'):
-	text_input = st.text_input(label='Enter your question:')
-	submit_button = st.form_submit_button(label='Submit Question'
-                                          
-if submit:
-    st.write(f'hello {text_input}')
+    text_input = st.text_input(label='Enter your question:')
+    submit_button = st.form_submit_button(label='Submit Question'                                      
+    if submit:
+        st.write(f'hello {text_input}')

@@ -1,0 +1,8 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+streamlit = "*"
+snowflake-connector-python = "2.7.6"
